@@ -79,17 +79,6 @@ public class Application {
             }
         }
 
-
     }
-
-/*    private static boolean equalsForSimilar(CustomMethods cMethods, WaitingTimeline valueWT, WaitingTimeline wtFromStorage) {
-        return valueWT.getCompanyService().getType().replaceAll("\\.(.*)", "").equals(wtFromStorage.getCompanyService().getType().replaceAll("\\.(.*)", ""))
-                //&& (valueWT.getQuestion().getType().equals("*") ? true : valueWT.getQuestion().getType().replaceAll("\\.(.*)", "").equals(wtFromStorage.getQuestion().getType().replaceAll("\\.(.*)", "")))
-                && (valueWT.getQuestion().getType().equals("*") || valueWT.getQuestion().getType().replaceAll("\\.(.*)", "").equals(wtFromStorage.getQuestion().getType().replaceAll("\\.(.*)", "")))
-                // only for questions !!! ignore all category && sub-category
-                && cMethods.checkBetweenDate(
-                ((CWaitingTimeline) wtFromStorage).getDateReq(),
-                ((DWaitingTimeline) valueWT).getDateFrom(),
-                ((DWaitingTimeline) valueWT).getDateTo());
-    }*/
+    
 }
